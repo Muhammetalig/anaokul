@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "yeni-anaokulu",
+          "appId": "1:960328201040:android:475a9deeaaec33de2fb255",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "yeni-anaokulu",
+          "configurations": {
+            "android": "1:960328201040:android:475a9deeaaec33de2fb255",
+            "ios": "1:960328201040:ios:a1dd69c563b905a42fb255",
+            "macos": "1:960328201040:ios:a1dd69c563b905a42fb255",
+            "web": "1:960328201040:web:338f88e2438f2e3b2fb255",
+            "windows": "1:960328201040:web:38bf37e5093fb4082fb255"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "yeni/functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": []
+    }
+  ]
+} 
